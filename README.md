@@ -314,7 +314,8 @@ VendorPay uses a **VendorRegistry** Soroban smart contract deployed on Stellar T
 ![Analytics](./screenshots/analytics.png)
 
 ### Transaction ID
-![Transaction ID](<img width="870" height="875" alt="image" src="https://github.com/user-attachments/assets/27463d2e-318f-4788-9e90-d19acbdbb1c7" />)
+![Transaction ID](<img width="885" height="880" alt="image" src="https://github.com/user-attachments/assets/92e45e2d-6051-4181-a0b6-9083d45016b1" />
+)
 ---
 
 ## 📁 Project Structure
