@@ -23,6 +23,27 @@
 
 ---
 ## 📸 Screenshots
+### Wallet Connected State
+![Wallet Connected](./screenshots/wallet-connected.png)
+
+### Balance Displayed
+![Balance Display](./screenshots/balance-display.png)
+
+### QR Payment Request
+![QR Code](./screenshots/qr-payment.png)
+
+### Successful Transaction
+![Transaction Success](./screenshots/tx-success.png)
+
+### Transaction Result Shown to User
+![Transaction Result](./screenshots/tx-result.png)
+
+### Wallet Options Available
+![Wallet Options](./screenshots/wallet-options.png)
+
+### Analytics Dashboard
+![Analytics](./screenshots/analytics.png)
+
 Transaction Id <img width="865" height="871" alt="image" src="https://github.com/user-attachments/assets/f1c65923-2478-4d71-a75d-cc5de9225d5b" />
 
 ## 📖 What is VendorPay?
@@ -178,7 +199,6 @@ cp .env.example .env
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### Environment Variables
 
@@ -234,7 +254,7 @@ Tests       16 passed (16)
 Duration    1.23s
 ```
 
-> 📸 **Screenshot of test output:** [tests-passing.png]
+
 
 ---
 
@@ -275,49 +295,8 @@ VendorPay uses a **VendorRegistry** Soroban smart contract deployed on Stellar T
 - `is_registered(address)` — checks if a vendor exists
 - `vendor_count()` — returns total registered vendors
 
-### Deployed Contract
-
-| Field | Value |
-|-------|-------|
-| **Contract ID** | `YOUR_CONTRACT_ID_HERE` |
-| **Network** | Stellar Testnet |
-| **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/YOUR_CONTRACT_ID) |
-
-### Contract Call Transaction
-
-| Field | Value |
-|-------|-------|
-| **Transaction Hash** | `YOUR_TX_HASH_HERE` |
-| **Operation** | `register_vendor` |
-| **Verify** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/tx/YOUR_TX_HASH) |
-
 ---
 
-## 📸 Screenshots
-
-### Wallet Connected State
-![Wallet Connected](./screenshots/wallet-connected.png)
-
-### Balance Displayed
-![Balance Display](./screenshots/balance-display.png)
-
-### QR Payment Request
-![QR Code](./screenshots/qr-payment.png)
-
-### Successful Transaction
-![Transaction Success](./screenshots/tx-success.png)
-
-### Transaction Result Shown to User
-![Transaction Result](./screenshots/tx-result.png)
-
-### Wallet Options Available
-![Wallet Options](./screenshots/wallet-options.png)
-
-### Analytics Dashboard
-![Analytics](./screenshots/analytics.png)
-
-### Transaction ID
-<img width="885" height="880" alt="image" src="https://github.com/user-attachments/assets/92e45e2d-6051-4181-a0b6-9083d45016b1" />
 
 ---
 
