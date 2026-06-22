@@ -24,27 +24,16 @@
 ---
 ## 📸 Screenshots
 ### Wallet Connected State
-![Wallet Connected](./screenshots/wallet-connected.png)
+ <img width="1825" height="843" alt="image" src="https://github.com/user-attachments/assets/490e305f-d6b6-49a9-a5cf-2c24ebdb8412" />
 
-### Balance Displayed
-![Balance Display](./screenshots/balance-display.png)
-
-### QR Payment Request
-![QR Code](./screenshots/qr-payment.png)
-
-### Successful Transaction
-![Transaction Success](./screenshots/tx-success.png)
-
-### Transaction Result Shown to User
-![Transaction Result](./screenshots/tx-result.png)
-
-### Wallet Options Available
-![Wallet Options](./screenshots/wallet-options.png)
+###  Payment Dashboard
+<img width="1780" height="772" alt="image" src="https://github.com/user-attachments/assets/70d9d36e-fb16-4a13-9b83-ec6b8b28fcd0" />
 
 ### Analytics Dashboard
-![Analytics](./screenshots/analytics.png)
+<img width="1771" height="848" alt="image" src="https://github.com/user-attachments/assets/d20b27aa-caff-443d-9edd-cb110220ebde" />
 
-Transaction Id <img width="865" height="871" alt="image" src="https://github.com/user-attachments/assets/f1c65923-2478-4d71-a75d-cc5de9225d5b" />
+### Transaction Id 
+<img width="865" height="871" alt="image" src="https://github.com/user-attachments/assets/f1c65923-2478-4d71-a75d-cc5de9225d5b" />
 
 ## 📖 What is VendorPay?
 
@@ -64,41 +53,10 @@ VendorPay is built for the **1.4 billion people** globally who live without acce
 
 ---
 
-## 🎥 Demo Video
-
-[![Demo Video](https://img.shields.io/badge/▶_Watch-Demo_Video-10B981?style=for-the-badge)](YOUR_VIDEO_URL)
-
-> Full 1-minute walkthrough showing wallet connect → product catalog → QR generation → live payment → receipt
 
 ---
 
 ## ✨ Features
-
-### Core (Level 1)
-| Feature | Description |
-|---------|-------------|
-| 🔑 **Wallet Connect** | One-click Freighter wallet connection with auto-reconnect |
-| 🔌 **Wallet Disconnect** | Clean disconnect with localStorage clear |
-| 💰 **Live Balance** | XLM balance fetched from Stellar Horizon, auto-refreshes every 15s |
-| 📤 **Send XLM** | Full transaction flow with signing → submitting → confirmed states |
-| ✅ **Transaction Feedback** | Success state with tx hash + Stellar Expert link; failure with specific error |
-
-### Advanced (Level 2)
-| Feature | Description |
-|---------|-------------|
-| ⚠️ **3 Error Types** | Wallet errors, insufficient funds errors, network errors — all handled |
-| 📜 **Smart Contract** | VendorRegistry Soroban contract deployed on testnet |
-| 🔗 **Contract Integration** | Vendors registered on-chain; payments recorded via contract |
-| 📊 **Transaction Status** | Visible signing → submitting → success/fail pipeline |
-
-### dApp (Level 3)
-| Feature | Description |
-|---------|-------------|
-| 🧪 **3+ Tests Passing** | Vitest suite covering formatters, business score, error handler |
-| 📹 **Demo Video** | 1-minute full functionality walkthrough |
-| 🌐 **Deployed** | Live on Vercel |
-
-### Unique Winning Features
 | Feature | Description |
 |---------|-------------|
 | 📲 **Smart QR Codes** | SEP-0007 payment URI with amount + memo baked in — not just a static address |
@@ -137,15 +95,6 @@ VendorPay has **zero backend**. Every call goes directly from the React app runn
                      └───────────────┘   └────────────────────┘
 ```
 
-**Why no backend?**
-- Simpler deployment — just push to Vercel
-- No server costs, no maintenance
-- Truly decentralized — all data lives on Stellar
-- Demonstrates the power of Stellar's public APIs
-
-See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for full technical breakdown.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -258,33 +207,7 @@ Duration    1.23s
 
 ---
 
-## ⚠️ Error Handling
-
-VendorPay handles 3 distinct error categories, each with a specific user-facing message and action step:
-
-### Error Type 1 — Wallet Errors
-| Error | Message | Action shown |
-|-------|---------|-------------|
-| Freighter not installed | "Wallet Not Found" | "Install Freighter from freighter.app" |
-| User rejected transaction | "Transaction Cancelled" | "Try again and approve in Freighter" |
-
-### Error Type 2 — Fund Errors
-| Error | Message | Action shown |
-|-------|---------|-------------|
-| Balance too low | "Insufficient Funds" | "Fund wallet at laboratory.stellar.org" |
-| Invalid amount | "Invalid Amount" | "Enter a valid amount greater than 0" |
-| Invalid address | "Invalid Destination" | "Check the address and try again" |
-
-### Error Type 3 — Network Errors
-| Error | Message | Action shown |
-|-------|---------|-------------|
-| Horizon unreachable | "Network Error" | "Check internet and try again" |
-| Account not on testnet | "Account Not Found" | "Fund with Friendbot first" |
-| Tx confirmation timeout | "Transaction Timeout" | "Check Stellar Expert for status" |
-
----
-
-## 📜 Smart Contract (Level 2)
+## 📜 Smart Contract 
 
 VendorPay uses a **VendorRegistry** Soroban smart contract deployed on Stellar Testnet.
 
@@ -413,13 +336,4 @@ MIT License — see [LICENSE](./LICENSE) for details.
 
 ---
 
-<div align="center">
-
-**Built for the Stellar Monthly Builder Challenge 2025**
-
-Made with ❤️ on Stellar Testnet
-
-[🌟 Star this repo](YOUR_GITHUB_URL) · [🐛 Report an issue](YOUR_GITHUB_URL/issues) · [💬 Discuss](YOUR_GITHUB_URL/discussions)
-
-</div>
 
