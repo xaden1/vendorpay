@@ -16,7 +16,8 @@
 
 <br/>
 
-[🚀 Live Demo](https://vendorpay-ochre.vercel.app/) 
+## 🚀 Live Demo
+**[https://stellarmind-azure.vercel.app](https://vendorpay-ochre.vercel.app/)**
 
 </div>
 
