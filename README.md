@@ -16,7 +16,7 @@
 
 <br/>
 
-[🚀 Live Demo](YOUR_VERCEL_URL) · [🎥 Demo Video](YOUR_VIDEO_URL) · [📜 Contract](YOUR_STELLAR_EXPERT_URL) · [🐛 Report Bug](YOUR_GITHUB_URL/issues)
+[🚀 Live Demo](https://vendorpay-ochre.vercel.app/) 
 
 </div>
 
